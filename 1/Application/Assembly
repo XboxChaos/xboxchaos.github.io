@@ -1,0 +1,223 @@
+{
+	"result" :
+	{
+		"name" : "Assembly",
+		"description" : "Multi-Generation Blam Engine Research Tool",
+		"repo_url" : "https://github.com/XboxChaos/Assembly",
+		"repo_name" : "Assembly",
+		
+		"application_branches" :
+		[
+			{
+				"name" : "master",
+				"ref" : "refs/heads/master",
+				"repo_tree" : "Assembly/tree/master",
+				"build_link" : "http://api.xboxchaos.com/downloads/assembly-master-12-19-2022.zip",
+				"updater_link" : "http://api.xboxchaos.com/downloads/updater_dec_20_2019.zip",
+				"version" : 
+					{
+						"friendly" : "2022.12.19.21.21.59-master",
+						"internal" : "1.1.8389.4206"
+					},
+				"changelog" : 
+				[
+					{
+						"version" : 
+						{
+							"friendly" : "2022.12.19.21.21.59-master",
+							"internal" : "1.1.8389.4206"
+						},
+						"changes" : "Support for Dec 19 MCC update
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.12.07.22.03.33-master",
+							"internal" : "1.1.8377.1179"
+						},
+						"changes" : "Audited plugins through Halo 3
+Stubbs map names in help page
+Support for Dec 7 MCC update
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.09.19.22.00.04-master",
+							"internal" : "1.1.8298.3551"
+						},
+						"changes" : "Fix for Reach MCC script compiling
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.09.06.20.16.05-master",
+							"internal" : "1.1.8285.384"
+						},
+						"changes" : "Add support for maps built using Reach tools
+Updated script XMLs to match latest MCC
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.08.31.20.52.27-master",
+							"internal" : "1.1.8279.1320"
+						},
+						"changes" : "Add support for the August 31 MCC Update
+Fixed issue preventing the ability to poke Halo 2 Vista maps
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.06.29.18.38.10-master",
+							"internal" : "1.1.8215.39028"
+						},
+						"changes" : "Add support for the June 29 MCC Update
+Adds option to disable easter eggs in settings
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.05.11.22.10.29-master",
+							"internal" : "1.1.8166.40666"
+						},
+						"changes" : "Add support for Halo PC Trial and the May 11 MCC Update
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.04.27.14.39.25-master",
+							"internal" : "1.1.8152.33515"
+						},
+						"changes" : "Poking support for April 27 MCC hotfix.
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.04.23.12.14.24-master",
+							"internal" : "1.1.8148.28994"
+						},
+						"changes" : "Adds support for H3 and ODST maps made with the April 21 mod tools hotfix.
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.04.16.12.15.07-master",
+							"internal" : "1.1.8141.29227"
+						},
+						"changes" : "Fixes another tag injection bug introduced in the previous version.
+Matched to current dev branch."
+					}
+				]
+			},
+			{
+				"name" : "dev",
+				"ref" : "refs/heads/dev",
+				"repo_tree" : "Assembly/tree/dev",
+				"build_link" : "http://api.xboxchaos.com/downloads/assembly-dev-12-19-2022.zip",
+				"updater_link" : "http://api.xboxchaos.com/downloads/updater_dec_20_2019.zip",
+				"version" : 
+					{
+						"friendly" : "2022.12.19.21.21.57-dev",
+						"internal" : "1.1.8388.33902"
+					},
+				"changelog" : 
+				[
+					{
+						"version" : 
+						{
+						"friendly" : "2022.12.19.21.21.57-dev",
+						"internal" : "1.1.8388.33902"
+						},
+						"changes" : "Support for Dec 19 MCC update."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.12.07.22.03.32-dev",
+						"internal" : "1.1.8377.1046"
+						},
+						"changes" : "Audited plugins through Halo 3
+Stubbs map names in help page
+Support for Dec 7 MCC update."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.09.19.22.00.02-dev",
+						"internal" : "1.1.8297.28129"
+						},
+						"changes" : "Fix for Reach MCC script compiling."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.09.06.20.16.03-dev",
+						"internal" : "1.1.8284.39521"
+						},
+						"changes" : "Add support for maps built using Reach tools
+Updated script XMLs to match latest MCC."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.08.31.20.52.24-dev",
+						"internal" : "1.1.8278.33028"
+						},
+						"changes" : "Add support for the August 31 MCC Update
+Fixed issue preventing the ability to poke Halo 2 Vista maps."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.06.29.18.38.05-dev",
+						"internal" : "1.1.8215.38908"
+						},
+						"changes" : "Add support for the June 29 MCC Update
+Adds option to disable easter eggs in settings."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.05.11.22.10.18-dev",
+						"internal" : "1.1.8166.40149"
+						},
+						"changes" : "Add support for Halo PC Trial and the May 11 MCC Update."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.04.27.14.39.09-dev",
+						"internal" : "1.1.8152.33449"
+						},
+						"changes" : "Poking support for April 27 MCC hotfix."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.04.23.12.14.17-dev",
+						"internal" : "1.1.8148.28875"
+						},
+						"changes" : "Adds support for H3 and ODST maps made with the April 21 mod tools hotfix."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.04.16.12.15.14-dev",
+						"internal" : "1.1.8141.29148"
+						},
+						"changes" : "Fixes another tag injection bug introduced in the previous version."
+					}
+				]
+			}
+		]
+	}
+}
