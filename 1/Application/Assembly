@@ -12,8 +12,8 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "https://github.com/XboxChaos/Assembly/releases/download/2022.12.19/assembly-master-12-19-2022.zip",
-				"updater_link" : "https://github.com/XboxChaos/Assembly/releases/download/2019.12.20-Updater/updater-12-20-2019.zip",
+				"build_link" : "http://github.com/XboxChaos/Assembly/releases/download/2022.12.19/assembly-master-12-19-2022.zip",
+				"updater_link" : "http://github.com/XboxChaos/Assembly/releases/download/2019.12.20-Updater/updater-12-20-2019.zip",
 				"version" : 
 					{
 						"friendly" : "2022.12.19.21.21.59-master",
@@ -35,8 +35,8 @@
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "https://github.com/XboxChaos/Assembly/releases/download/2022.12.19/assembly-dev-12-19-2022.zip",
-				"updater_link" : "https://github.com/XboxChaos/Assembly/releases/download/2019.12.20-Updater/updater-12-20-2019.zip",
+				"build_link" : "http://github.com/XboxChaos/Assembly/releases/download/2022.12.19/assembly-dev-12-19-2022.zip",
+				"updater_link" : "http://github.com/XboxChaos/Assembly/releases/download/2019.12.20-Updater/updater-12-20-2019.zip",
 				"version" : 
 					{
 						"friendly" : "2022.12.19.21.21.57-dev",
