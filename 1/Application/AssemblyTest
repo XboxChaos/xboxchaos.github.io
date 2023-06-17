@@ -27,7 +27,7 @@
 							"friendly" : "2023.06.17.14.08.58-master",
 							"internal" : "1.1.8568.32507"
 						},
-						"changes" : "Improved H1 plguins thanks to the tool Invader
+						"changes" : "Improved H1 plugins thanks to the tool Invader
 Support for recent H3 Alpha builds
 Support for maps larger than 2gb
 Assembly should now show any errors during startup instead of closing silently
@@ -64,7 +64,7 @@ Matched to current dev branch."
 						"friendly" : "2023.06.17.14.08.56-dev",
 						"internal" : "1.1.8568.32408"
 						},
-						"changes" : "Improved H1 plguins thanks to the tool Invader
+						"changes" : "Improved H1 plugins thanks to the tool Invader
 Support for recent H3 Alpha builds
 Support for maps larger than 2gb
 Assembly should now show any errors during startup instead of closing silently
