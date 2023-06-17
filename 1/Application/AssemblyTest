@@ -1,0 +1,86 @@
+{
+	"result" :
+	{
+		"name" : "Assembly",
+		"description" : "Multi-Generation Blam Engine Research Tool",
+		"repo_url" : "https://github.com/XboxChaos/Assembly",
+		"repo_name" : "Assembly",
+		
+		"application_branches" :
+		[
+			{
+				"name" : "master",
+				"ref" : "refs/heads/master",
+				"repo_tree" : "Assembly/tree/master",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-6-17-2023.zip",
+				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
+				"version" : 
+					{
+						"friendly" : "2023.06.17.14.08.58-master",
+						"internal" : "1.1.8568.32507"
+					},
+				"changelog" : 
+				[
+					{
+						"version" : 
+						{
+							"friendly" : "2023.06.17.14.08.58-master",
+							"internal" : "1.1.8568.32507"
+						},
+						"changes" : "Improved H1 plguins thanks to the tool Invader
+Support for recent H3 Alpha builds
+Support for maps larger than 2gb
+Assembly should now show any errors during startup instead of closing silently
+Support for recent Reach Alpha build
+Improved support for old H2X map mods
+Matched to current dev branch."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2022.12.19.21.21.59-master",
+							"internal" : "1.1.8389.4206"
+						},
+						"changes" : "Support for Dec 19 MCC update."
+					}
+				]
+			},
+			{
+				"name" : "dev",
+				"ref" : "refs/heads/dev",
+				"repo_tree" : "Assembly/tree/dev",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-6-17-2023.zip",
+				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
+				"version" : 
+					{
+						"friendly" : "2023.06.17.14.08.56-dev",
+						"internal" : "1.1.8568.32408"
+					},
+				"changelog" : 
+				[
+					{
+						"version" : 
+						{
+						"friendly" : "2023.06.17.14.08.56-dev",
+						"internal" : "1.1.8568.32408"
+						},
+						"changes" : "Improved H1 plguins thanks to the tool Invader
+Support for recent H3 Alpha builds
+Support for maps larger than 2gb
+Assembly should now show any errors during startup instead of closing silently
+Support for recent Reach Alpha build
+Improved support for old H2X map mods."
+					},
+					{
+						"version" : 
+						{
+						"friendly" : "2022.12.19.21.21.57-dev",
+						"internal" : "1.1.8388.33902"
+						},
+						"changes" : "Support for Dec 19 MCC update."
+					}
+				]
+			}
+		]
+	}
+}
