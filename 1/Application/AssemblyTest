@@ -12,15 +12,24 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-6-17-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-7-14-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.06.17.14.08.58-master",
-						"internal" : "1.1.8568.32507"
+						"friendly" : "2023.07.14.11.33.10-master",
+						"internal" : "1.1.8595.27903"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2023.07.14.11.33.10-master",
+							"internal" : "1.1.8595.27903"
+						},
+						"changes" : "Support for the July 12 MCC Update
+Matched to current dev branch."
+					},
 					{
 						"version" : 
 						{
@@ -49,15 +58,23 @@ Matched to current dev branch."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-6-17-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-7-14-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.06.17.14.08.56-dev",
-						"internal" : "1.1.8568.32408"
+						"friendly" : "2023.07.14.11.33.08-dev",
+						"internal" : "1.1.8595.27860"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+						"friendly" : "2023.07.14.11.33.08-dev",
+						"internal" : "1.1.8595.27860"
+						},
+						"changes" : "Support for the July 12 MCC Update."
+					},
 					{
 						"version" : 
 						{
