@@ -12,15 +12,23 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-7-20-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-7-21-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.07.20.19.14.41-master",
-						"internal" : "1.1.8601.41792"
+						"friendly" : "2023.07.21.10.12.41-master",
+						"internal" : "1.1.8602.25521"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2023.07.21.10.12.41-master",
+							"internal" : "1.1.8602.25521"
+						},
+						"changes" : "Support for the July 20 MCC Tools Update."
+					},
 					{
 						"version" : 
 						{
@@ -39,20 +47,6 @@ Matched to current dev branch."
 						},
 						"changes" : "Support for the July 12 MCC Update
 Matched to current dev branch."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2023.06.17.14.08.58-master",
-							"internal" : "1.1.8568.32507"
-						},
-						"changes" : "Improved H1 plugins thanks to the tool Invader
-Support for recent H3 Alpha builds
-Support for maps larger than 2gb
-Assembly should now show any errors during startup instead of closing silently
-Support for recent Reach Alpha build
-Improved support for old H2X map mods
-Matched to current dev branch."
 					}
 				]
 			},
@@ -60,15 +54,23 @@ Matched to current dev branch."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-7-20-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-7-21-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.07.20.19.14.40-dev",
-						"internal" : "1.1.8601.41708"
+						"friendly" : "2023.07.21.10.12.38-dev",
+						"internal" : "1.1.8602.25396"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+						"friendly" : "2023.07.21.10.12.38-dev",
+						"internal" : "1.1.8602.25396"
+						},
+						"changes" : "Support for the July 20 MCC Tools Update."
+					},
 					{
 						"version" : 
 						{
@@ -85,19 +87,6 @@ Fixes string IDs and script compiling issues from previous version."
 						"internal" : "1.1.8595.27860"
 						},
 						"changes" : "Support for the July 12 MCC Update."
-					},
-					{
-						"version" : 
-						{
-						"friendly" : "2023.06.17.14.08.56-dev",
-						"internal" : "1.1.8568.32408"
-						},
-						"changes" : "Improved H1 plugins thanks to the tool Invader
-Support for recent H3 Alpha builds
-Support for maps larger than 2gb
-Assembly should now show any errors during startup instead of closing silently
-Support for recent Reach Alpha build
-Improved support for old H2X map mods."
 					}
 				]
 			}
