@@ -12,7 +12,7 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-9-20-2023",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-9-20-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
