@@ -12,15 +12,26 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-7-21-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-9-20-2023",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.07.21.10.12.41-master",
-						"internal" : "1.1.8602.25521"
+						"friendly" : "2023.09.20.10.52.52-master",
+						"internal" : "1.1.8663.26496"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2023.09.20.10.52.52-master",
+							"internal" : "1.1.8663.26496"
+						},
+						"changes" : "Support for the September 19 MCC Update
+Fixes support for Halo 2 Beta maps
+Should now run properly for Turkish users
+Add catch for missing script references due to tool culling."
+					},
 					{
 						"version" : 
 						{
@@ -38,15 +49,6 @@
 						"changes" : "Support for the July 20 MCC Update
 Fixes string IDs and script compiling issues from previous version
 Matched to current dev branch."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2023.07.14.11.33.10-master",
-							"internal" : "1.1.8595.27903"
-						},
-						"changes" : "Support for the July 12 MCC Update
-Matched to current dev branch."
 					}
 				]
 			},
@@ -54,15 +56,26 @@ Matched to current dev branch."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-7-21-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-9-20-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.07.21.10.12.38-dev",
-						"internal" : "1.1.8602.25396"
+						"friendly" : "2023.09.20.10.52.54-dev",
+						"internal" : "1.1.8663.5543"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+						"friendly" : "2023.09.20.10.52.54-dev",
+						"internal" : "1.1.8663.5543"
+						},
+						"changes" : "Support for the September 19 MCC Update
+Fixes support for Halo 2 Beta maps
+Should now run properly for Turkish users
+Add catch for missing script references due to tool culling."
+					},
 					{
 						"version" : 
 						{
@@ -79,14 +92,6 @@ Matched to current dev branch."
 						},
 						"changes" : "Support for the July 20 MCC Update
 Fixes string IDs and script compiling issues from previous version."
-					},
-					{
-						"version" : 
-						{
-						"friendly" : "2023.07.14.11.33.08-dev",
-						"internal" : "1.1.8595.27860"
-						},
-						"changes" : "Support for the July 12 MCC Update."
 					}
 				]
 			}
