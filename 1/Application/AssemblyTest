@@ -76,7 +76,7 @@ Original Xbox poking and screenshots now supported. (Requires Debug BIOS)
 Console poking now uses a custom implementation that replaces the previous XDevkit.dll dependency.
 Screenshots likewise use a custom implementation, allowing native resolution shots to be taken and to apply accurate gamma values for Halo 3 and ODST.
 PC poking will now attempt to fall back to latest info if an unknown game version is encountered. Will be mentioned that it did if any errors occur.
-Stubbs Remaster poking now supported.
+Stubbs Remaster poking now supported."
 					},
 					{
 						"version" : 
