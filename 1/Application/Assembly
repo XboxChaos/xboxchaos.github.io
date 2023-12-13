@@ -47,16 +47,6 @@ Add catch for missing script references due to tool culling."
 							"internal" : "1.1.8602.25521"
 						},
 						"changes" : "Support for the July 20 MCC Tools Update."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2023.07.20.19.14.41-master",
-							"internal" : "1.1.8601.41792"
-						},
-						"changes" : "Support for the July 20 MCC Update
-Fixes string IDs and script compiling issues from previous version
-Matched to current dev branch."
 					}
 				]
 			},
@@ -64,15 +54,30 @@ Matched to current dev branch."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-11-29-2023.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-12-13-2023.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2023.11.29.16.02.08-dev",
-						"internal" : "1.1.8733.37628"
+						"friendly" : "2023.12.13.00.41.22-dev",
+						"internal" : "1.1.8746.11327"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+						"friendly" : "2023.12.13.00.41.22-dev",
+						"internal" : "1.1.8746.11327"
+						},
+						"changes" : "Poking rework from newpoking branch. Please report any poking issues!
+NOTE: Some Xbox settings will be reset after updating and will need to be set again.
+Poking errors should be more descriptive.
+Original Xbox poking and screenshots now supported. (Requires Debug BIOS)
+Console poking now uses a custom implementation that replaces the previous XDevkit.dll dependency.
+Screenshots likewise use a custom implementation, allowing native resolution shots to be taken and to apply accurate gamma values for Halo 3 and ODST.
+PC poking will now attempt to fall back to latest info if an unknown game version is encountered. Will be mentioned that it did if any errors occur.
+Stubbs Remaster poking now supported."
+					},
 					{
 						"version" : 
 						{
@@ -91,23 +96,6 @@ Matched to current dev branch."
 Fixes support for Halo 2 Beta maps
 Should now run properly for Turkish users
 Add catch for missing script references due to tool culling."
-					},
-					{
-						"version" : 
-						{
-						"friendly" : "2023.07.21.10.12.38-dev",
-						"internal" : "1.1.8602.25396"
-						},
-						"changes" : "Support for the July 20 MCC Tools Update."
-					},
-					{
-						"version" : 
-						{
-						"friendly" : "2023.07.20.19.14.40-dev",
-						"internal" : "1.1.8601.41708"
-						},
-						"changes" : "Support for the July 20 MCC Update
-Fixes string IDs and script compiling issues from previous version."
 					}
 				]
 			}
