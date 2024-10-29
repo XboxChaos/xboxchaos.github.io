@@ -12,15 +12,28 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-2-14-2024.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-10-28-2024.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2024.02.14.15.24.45-master",
-						"internal" : "1.1.8810.36246"
+						"friendly" : "2024.10.28.20.46.46-master",
+						"internal" : "1.1.9066.8258"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2024.10.28.20.46.46-master",
+							"internal" : "1.1.9066.8258"
+						},
+						"changes" : "Added support for Halo Online/Eldewrito maps.
+Support for known Xbone MCC maps.
+Locale symbols now match official syntax.
+String viewer tab added for string tags in games without a global locale tab.
+Large dataref fields can be skipped during load.
+Errors at startup regarding the Formats folder should be more verbose."
+					},
 					{
 						"version" : 
 						{
@@ -37,17 +50,6 @@ Adds support for the recently released Epsilon Refresh H3 build."
 							"internal" : "1.1.8733.37815"
 						},
 						"changes" : "Improved support for H1MCC mods built with unofficial tools."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2023.09.20.10.52.52-master",
-							"internal" : "1.1.8663.26496"
-						},
-						"changes" : "Support for the September 19 MCC Update
-Fixes support for Halo 2 Beta maps
-Should now run properly for Turkish users
-Add catch for missing script references due to tool culling."
 					}
 				]
 			},
@@ -55,20 +57,36 @@ Add catch for missing script references due to tool culling."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-2-14-2024.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-10-28-2024.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
 				"version" : 
 					{
-						"friendly" : "2024.02.14.15.24.44-dev",
-						"internal" : "1.1.8810.36285"
+						"friendly" : "2024.10.28.20.46.45-dev",
+						"internal" : "1.1.9066.8372"
 					},
 				"changelog" : 
 				[
 					{
 						"version" : 
 						{
-						"friendly" : "2024.02.14.15.24.44-dev",
-						"internal" : "1.1.8810.36285"
+							"friendly" : "2024.10.28.20.46.45-dev",
+							"internal" : "1.1.9066.8372"
+						},
+						"changes" : "[This is the newpoking branch with changes to console and PC poking. Please report any poking issues!]
+Added support for Halo Online/Eldewrito maps.
+Support for known Xbone MCC maps.
+Locale symbols now match official syntax.
+String viewer tab added for string tags in games without a global locale tab.
+Large dataref fields can be skipped during load.
+Errors at startup regarding the Formats folder should be more verbose.
+Screenshots can be modified after the fact to override settings.
+Experimental support for poking OG titles on 360."
+					},
+					{
+						"version" : 
+						{
+							"friendly" : "2024.02.14.15.24.44-dev",
+							"internal" : "1.1.8810.36285"
 						},
 						"changes" : "[This is the newpoking branch with changes to console and PC poking. Please report any poking issues!]
 Support for the February 14 MCC Update.
@@ -77,8 +95,8 @@ Adds support for the recently released Epsilon Refresh H3 build."
 					{
 						"version" : 
 						{
-						"friendly" : "2023.12.13.00.41.22-dev",
-						"internal" : "1.1.8746.11327"
+							"friendly" : "2023.12.13.00.41.22-dev",
+							"internal" : "1.1.8746.11327"
 						},
 						"changes" : "Poking rework from newpoking branch. Please report any poking issues!
 NOTE: Some Xbox settings will be reset after updating and will need to be set again.
@@ -88,14 +106,6 @@ Console poking now uses a custom implementation that replaces the previous XDevk
 Screenshots likewise use a custom implementation, allowing native resolution shots to be taken and to apply accurate gamma values for Halo 3 and ODST.
 PC poking will now attempt to fall back to latest info if an unknown game version is encountered. Will be mentioned that it did if any errors occur.
 Stubbs Remaster poking now supported."
-					},
-					{
-						"version" : 
-						{
-						"friendly" : "2023.11.29.16.02.08-dev",
-						"internal" : "1.1.8733.37628"
-						},
-						"changes" : "Improved support for H1MCC mods built with unofficial tools."
 					}
 				]
 			}
