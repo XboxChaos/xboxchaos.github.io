@@ -12,15 +12,26 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-10-28-2024.zip",
-				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-2-28-2025.zip",
+				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2024.10.28.20.46.46-master",
-						"internal" : "1.1.9066.8258"
+						"friendly" : "2025.02.28.18.23.06-master",
+						"internal" : "1.1.9190.42020"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2025.02.28.18.23.06-master",
+							"internal" : "1.1.9190.42020"
+						},
+						"changes" : "Support for the February 28 MCC Update.
+Adds support for the recently released H2 E304 build.
+Batch tag json extraction, batch build tagname dump features.
+Misc fixes."
+					},
 					{
 						"version" : 
 						{
@@ -42,14 +53,6 @@ Errors at startup regarding the Formats folder should be more verbose."
 						},
 						"changes" : "Support for the February 14 MCC Update.
 Adds support for the recently released Epsilon Refresh H3 build."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2023.11.29.16.02.10-master",
-							"internal" : "1.1.8733.37815"
-						},
-						"changes" : "Improved support for H1MCC mods built with unofficial tools."
 					}
 				]
 			},
@@ -57,15 +60,26 @@ Adds support for the recently released Epsilon Refresh H3 build."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-10-28-2024.zip",
-				"updater_link" : "http://api.xboxchaos.com/zips/updater-12-20-2019.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-2-28-2025.zip",
+				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2024.10.28.20.46.45-dev",
-						"internal" : "1.1.9066.8372"
+						"friendly" : "2025.02.28.18.23.05-dev",
+						"internal" : "1.1.9190.41969"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2025.02.28.18.23.05-dev",
+							"internal" : "1.1.9190.41969"
+						},
+						"changes" : "The newpoking branch has been merged intro dev, containing changes to console and PC poking. Please report any poking issues!
+Adds support for the recently released H2 E304 build.
+Batch tag json extraction, batch build tagname dump features.
+Misc fixes."
+					},
 					{
 						"version" : 
 						{
@@ -91,21 +105,6 @@ Experimental support for poking OG titles on 360."
 						"changes" : "[This is the newpoking branch with changes to console and PC poking. Please report any poking issues!]
 Support for the February 14 MCC Update.
 Adds support for the recently released Epsilon Refresh H3 build."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2023.12.13.00.41.22-dev",
-							"internal" : "1.1.8746.11327"
-						},
-						"changes" : "Poking rework from newpoking branch. Please report any poking issues!
-NOTE: Some Xbox settings will be reset after updating and will need to be set again.
-Poking errors should be more descriptive.
-Original Xbox poking and screenshots now supported. (Requires Debug BIOS)
-Console poking now uses a custom implementation that replaces the previous XDevkit.dll dependency.
-Screenshots likewise use a custom implementation, allowing native resolution shots to be taken and to apply accurate gamma values for Halo 3 and ODST.
-PC poking will now attempt to fall back to latest info if an unknown game version is encountered. Will be mentioned that it did if any errors occur.
-Stubbs Remaster poking now supported."
 					}
 				]
 			}
