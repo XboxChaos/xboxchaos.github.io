@@ -12,15 +12,29 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-2-28-2025.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-9-19-2025.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
 						"friendly" : "2025.02.28.18.23.06-master",
-						"internal" : "1.1.9190.42020"
+						"internal" : "1.1.9391.33076"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2025.09.19.12.22.12-master",
+							"internal" : "1.1.9391.33076"
+						},
+						"changes" : "newpoking banch merged into master, containing changes to console and PC poking. Please report any poking issues!
+build dates now get displayed in a map's header tab
+added poking/scripting for older mcc versions
+limited support for known h4 testchamber maps
+layout xmls now support inheriting
+json dumps now include the tag's group
+poking updated for the sept 17 mcc update"
+					},
 					{
 						"version" : 
 						{
@@ -44,15 +58,6 @@ Locale symbols now match official syntax.
 String viewer tab added for string tags in games without a global locale tab.
 Large dataref fields can be skipped during load.
 Errors at startup regarding the Formats folder should be more verbose."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2024.02.14.15.24.45-master",
-							"internal" : "1.1.8810.36246"
-						},
-						"changes" : "Support for the February 14 MCC Update.
-Adds support for the recently released Epsilon Refresh H3 build."
 					}
 				]
 			},
@@ -60,15 +65,28 @@ Adds support for the recently released Epsilon Refresh H3 build."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-2-28-2025.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-9-19-2025.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2025.02.28.18.23.05-dev",
-						"internal" : "1.1.9190.41969"
+						"friendly" : "2025.09.19.12.22.12-dev",
+						"internal" : "1.1.9391.33076"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2025.09.19.12.22.12-dev",
+							"internal" : "1.1.9391.33076"
+						},
+						"changes" : "build dates now get displayed in a map's header tab
+added poking/scripting for older mcc versions
+limited support for known h4 testchamber maps
+layout xmls now support inheriting
+json dumps now include the tag's group
+poking updated for the sept 17 mcc update"
+					},
 					{
 						"version" : 
 						{
@@ -95,16 +113,6 @@ Large dataref fields can be skipped during load.
 Errors at startup regarding the Formats folder should be more verbose.
 Screenshots can be modified after the fact to override settings.
 Experimental support for poking OG titles on 360."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2024.02.14.15.24.44-dev",
-							"internal" : "1.1.8810.36285"
-						},
-						"changes" : "[This is the newpoking branch with changes to console and PC poking. Please report any poking issues!]
-Support for the February 14 MCC Update.
-Adds support for the recently released Epsilon Refresh H3 build."
 					}
 				]
 			}
