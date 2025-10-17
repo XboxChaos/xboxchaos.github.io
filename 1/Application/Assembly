@@ -12,15 +12,23 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-9-19-2025.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-10-17-2025.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2025.09.19.12.22.12-master",
-						"internal" : "1.1.9391.33076"
+						"friendly" : "2025.10.17.15.11.32-master",
+						"internal" : "1.1.9421.27293"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2025.10.17.15.11.32-master",
+							"internal" : "1.1.9421.27293"
+						},
+						"changes" : "Fixes a bug when compressing H2MCC maps that disabled anniversary graphics, affected maps will need manual editing to fix the broken flags value. See Github release page for instructions."
+					},
 					{
 						"version" : 
 						{
@@ -45,19 +53,6 @@ poking updated for the sept 17 mcc update"
 Adds support for the recently released H2 E304 build.
 Batch tag json extraction, batch build tagname dump features.
 Misc fixes."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2024.10.28.20.46.46-master",
-							"internal" : "1.1.9066.8258"
-						},
-						"changes" : "Added support for Halo Online/Eldewrito maps.
-Support for known Xbone MCC maps.
-Locale symbols now match official syntax.
-String viewer tab added for string tags in games without a global locale tab.
-Large dataref fields can be skipped during load.
-Errors at startup regarding the Formats folder should be more verbose."
 					}
 				]
 			},
@@ -65,15 +60,23 @@ Errors at startup regarding the Formats folder should be more verbose."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-9-19-2025.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-10-17-2025.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2025.09.19.12.22.12-dev",
-						"internal" : "1.1.9391.33076"
+						"friendly" : "2025.10.17.15.11.32-dev",
+						"internal" : "1.1.9421.27293"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2025.10.17.15.11.32-dev",
+							"internal" : "1.1.9421.27293"
+						},
+						"changes" : "Fixes a bug when compressing H2MCC maps that disabled anniversary graphics, affected maps will need manual editing to fix the broken flags value. See Github release page for instructions."
+					},
 					{
 						"version" : 
 						{
@@ -97,22 +100,6 @@ poking updated for the sept 17 mcc update"
 Adds support for the recently released H2 E304 build.
 Batch tag json extraction, batch build tagname dump features.
 Misc fixes."
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2024.10.28.20.46.45-dev",
-							"internal" : "1.1.9066.8372"
-						},
-						"changes" : "[This is the newpoking branch with changes to console and PC poking. Please report any poking issues!]
-Added support for Halo Online/Eldewrito maps.
-Support for known Xbone MCC maps.
-Locale symbols now match official syntax.
-String viewer tab added for string tags in games without a global locale tab.
-Large dataref fields can be skipped during load.
-Errors at startup regarding the Formats folder should be more verbose.
-Screenshots can be modified after the fact to override settings.
-Experimental support for poking OG titles on 360."
 					}
 				]
 			}
