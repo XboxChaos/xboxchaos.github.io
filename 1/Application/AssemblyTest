@@ -12,15 +12,23 @@
 				"name" : "master",
 				"ref" : "refs/heads/master",
 				"repo_tree" : "Assembly/tree/master",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-10-17-2025.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-master-2-16-2026.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2025.10.17.15.11.32-master",
-						"internal" : "1.1.9421.27293"
+						"friendly" : "2026.02.16.18.42.14-master",
+						"internal" : "1.1.9543.42607"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2026.02.16.18.42.14-master",
+							"internal" : "1.1.9543.42607"
+						},
+						"changes" : "Adds missing footer offset for early ODSTMCC layout xmls, adds support for recent Groundhog 360 builds."
+					},
 					{
 						"version" : 
 						{
@@ -42,17 +50,6 @@ limited support for known h4 testchamber maps
 layout xmls now support inheriting
 json dumps now include the tag's group
 poking updated for the sept 17 mcc update"
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2025.02.28.18.23.06-master",
-							"internal" : "1.1.9190.42020"
-						},
-						"changes" : "Support for the February 28 MCC Update.
-Adds support for the recently released H2 E304 build.
-Batch tag json extraction, batch build tagname dump features.
-Misc fixes."
 					}
 				]
 			},
@@ -60,15 +57,23 @@ Misc fixes."
 				"name" : "dev",
 				"ref" : "refs/heads/dev",
 				"repo_tree" : "Assembly/tree/dev",
-				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-10-17-2025.zip",
+				"build_link" : "http://api.xboxchaos.com/zips/assembly-dev-2-16-2026.zip",
 				"updater_link" : "http://api.xboxchaos.com/zips/updater-01-21-2023.zip",
 				"version" : 
 					{
-						"friendly" : "2025.10.17.15.11.32-dev",
-						"internal" : "1.1.9421.27293"
+						"friendly" : "2026.02.16.18.42.14-dev",
+						"internal" : "1.1.9543.42607"
 					},
 				"changelog" : 
 				[
+					{
+						"version" : 
+						{
+							"friendly" : "2026.02.16.18.42.14-dev",
+							"internal" : "1.1.9543.42607"
+						},
+						"changes" : "Adds missing footer offset for early ODSTMCC layout xmls, adds support for recent Groundhog 360 builds."
+					},
 					{
 						"version" : 
 						{
@@ -89,17 +94,6 @@ limited support for known h4 testchamber maps
 layout xmls now support inheriting
 json dumps now include the tag's group
 poking updated for the sept 17 mcc update"
-					},
-					{
-						"version" : 
-						{
-							"friendly" : "2025.02.28.18.23.05-dev",
-							"internal" : "1.1.9190.41969"
-						},
-						"changes" : "The newpoking branch has been merged intro dev, containing changes to console and PC poking. Please report any poking issues!
-Adds support for the recently released H2 E304 build.
-Batch tag json extraction, batch build tagname dump features.
-Misc fixes."
 					}
 				]
 			}
